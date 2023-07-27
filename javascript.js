@@ -42,7 +42,7 @@ copyBtn.addEventListener("click", () => {
 twitterBtn.addEventListener("click", () => {
   let tweetUrl = `https://twitter.com/intent/tweet?url=${encodeURIComponent(
     quoteText.innerText
-  )}%0Aplaceholderlink`
+  )}%0Ahttps://skubiak447.github.io/MirekQOTD/`
   window.open(tweetUrl, "_blank")
 })
 
