@@ -31,7 +31,8 @@ function displayQuoteForDay() {
 
 soundBtn.addEventListener("click", () => {
   let utterance = new SpeechSynthesisUtterance(quoteText.innerText)
-  utterance.rate = 0.8
+  utterance.rate = 1
+  utterance.lang = "pl-PL"
   speechSynthesis.speak(utterance)
 })
 

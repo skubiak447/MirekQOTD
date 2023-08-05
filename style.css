@@ -17,6 +17,7 @@ body {
   background: #fff;
   border-radius: 15px;
   padding: 30px 30px 25px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3);
 }
 .wrapper header {
   font-size: 35px;
@@ -34,11 +35,11 @@ body {
   font-size: 15px;
 }
 .quote-area i:first-child {
-  margin: 0 0 0 0;
+  margin: 3px 10px 0 0;
 }
 .quote-area i:last-child {
   display: flex;
-  justify-items: flex-end;
+  align-items: flex-end;
   margin: 0 0 3px 10px;
 }
 .quote-area .quote {
